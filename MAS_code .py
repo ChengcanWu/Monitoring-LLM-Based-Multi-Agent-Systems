@@ -4,7 +4,7 @@ import re
 import pickle
 
 
-client = OpenAI(base_url="https://yunwu.ai/v1", api_key="sk-o5rfIJQUzsnZ0or8f2H6kslVEn0gbiL9khuNfasn7an6qvNb")
+client = OpenAI(base_url="", api_key="")
 
 record_path = 'outputs/output011.txt'
 
@@ -232,4 +232,5 @@ if __name__ == "__main__":
 
 
     
+
 
